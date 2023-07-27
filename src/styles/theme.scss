@@ -1,0 +1,58 @@
+.light {
+  --txt: #000;
+  --txt-secondary: hsl(342, 100%, 52%);
+  --txt-sec-darker: #f9004d;
+  --bg-layout-home: linear-gradient(307deg, transparent 0%, transparent 57%, #ffffff 57%, #f8f8f8 100%), linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);
+  --bg-home-section-main: none;
+  --bg-layout-base: linear-gradient(307deg, transparent 0%, transparent 57%, #ffffff 57%, #f8f8f8 100%), linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);
+  --bg-primary: #fafafa;
+  --bg: #f9004d;
+  --bg-active: rgb(247, 17, 124);
+  --bg-header: transparent;
+  --bg-footer: transparent;
+  --backdrop: rgba(0, 0, 0, 0.75);
+  --nav-active: #f9004d;
+  --border-primary: #f9004d;
+  --logo-primary: #f9004d;
+  --social-icon: #f9004d;
+  --social-shadow: #f9004d;
+  --preloader: #fafafa;
+  --bg-modal: #fafafa;
+  --modal-border: none;
+  --modal-close: #f9004d;
+  --modal-close-icon: #fff;
+  --drawer-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+  --btn-primary-txt: #fff;
+  --tags-txt: #fff;
+  --toggle-theme: #000;
+}
+
+.dark {
+  --txt: #fff;
+  --txt-secondary: #f9004d;
+  --txt-sec-darcker: #f9004d;
+  --bg-layout-home: linear-gradient(to left, RGB(27 20 41), RGB(20 15 35));
+  --bg-home-section-main: linear-gradient(to bottom left, rgba(17, 16, 16, 0.678), rgba(12, 10, 22, 0.863)), url(../assets/home-bg.jpg);
+  --bg-layout-base: #100D19;
+  --bg-primary: #181a27;
+  --bg: #f9004d;
+  --bg-active: rgba(240, 9, 78, 0.84);
+  --bg-header: rgba(82, 79, 80, 0.425);
+  --bg-footer: #0a0416;
+  --backdrop: rgba(0, 0, 0, 0.75);
+  --nav-active: #f9004d;
+  --border-primary: #f9004d;
+  --logo-primary: #f9004d;
+  --social-icon: #f9004d;
+  --social-shadow: #f9004d;
+  --preloader: #0c0513;
+  --bg-modal: #100D19;
+  --modal-border: 1px solid rgba(0,0,0,.125);
+  --modal-close: #f9004d;
+  --modal-close-icon: #fff;
+  --drawer-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  --btn-primary-txt: #fff;
+  --tags-txt: #fff;
+  --toggle-theme: #fff;
+
+}
